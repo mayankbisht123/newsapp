@@ -36,7 +36,7 @@ return(
         <a href="/">{props.address}</a>
       </div>
     </div>
-    <button onClick={props.toogleMode} className={props.mode==='light'?'light':'dark'}>{props.mode==='light'?'Dark Mode':'Light Mode'}</button>
+    <button onClick={props.toogleMode} className={props.mode}>{props.mode==='light'?'Dark Mode':'Light Mode'}</button>
 </div>
 </>
 );

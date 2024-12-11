@@ -1,0 +1,34 @@
+.News{
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  margin-left: 5%;
+  margin-top: 3%;
+  
+}
+
+.News >*{
+  width:30.5%;
+  margin:8px;
+  margin-bottom: 18px;
+}
+
+.controlNextPrev{
+  display: flex;
+  width: 94% ;
+  justify-content: space-between;
+}
+
+.controlNextPrev .prev,.next{
+  border-radius: 29px;
+  background-color: rgb(21, 75, 146);
+  color: white;
+  text-decoration: none;
+  border: none;
+  width: 90px;
+}
+
+.controlNextPrev .prev:hover,.next:hover{
+  opacity: 0.9;
+  cursor: pointer;
+}

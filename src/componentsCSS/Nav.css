@@ -15,8 +15,8 @@ align-items: center;
     z-index: 1000;
     margin:0;
     display:flex;
-    background-color: #778899; /* Light Slate Gray */
-    color: white;
+    background-color: #dce0e4; /* Light Slate Gray */
+    color: black;
     font-family:'Times New Roman', Times, serif;
     font-size: 20px;
     align-items: center;
@@ -52,7 +52,7 @@ align-items: center;
     
     .navbar.light a:hover{
         color: inherit;
-        background-color: black;
+        background-color: white;
         border-radius: 2px;
     }
     .navbar .dropdown{

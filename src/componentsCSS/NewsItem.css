@@ -1,18 +1,47 @@
-.container{
+.NewsItemcontainer {
     position: relative;
     display: flex;
     flex-direction: column;
-    position: relative;
-    height: 500px;
-    width:300px;
-    border-radius: 10px;
-    background-color: aqua;
+    height: 300px;
+    width:100px;
+    border-radius: 2px;
+    /* background-color: aqua; */
+    border:1px solid gray;
+    box-sizing: border-box;
 }
 
-.container img{
-    width:100%;
-    height:60%;
+.NewsItemcontainer a {
+    color: inherit; 
+    text-decoration: none; 
+    display: block;
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
 }
-.container .text-container{
-    height:30%px;
+
+.NewsItemcontainer .ImageContainer {
+    position: relative;
+    width: 100%;
+    height: 50%;
+}
+.NewsItemcontainer img {
+    width: 100%;
+    height: 100%;
+}
+
+.NewsItemcontainer .badge-overlay {
+    position: absolute;
+    top: 5px;
+    right: 3%;
+    z-index: 1;
+}
+
+.NewsItemcontainer .textNewsItemcontainer
+{
+    height: 100%;
+}
+.NewsItemcontainer .textNewsItemcontainer h3, 
+.NewsItemcontainer .textNewsItemcontainer p {
+    font-size: small !important;
+    /* line-height: 1.3; */
 }
